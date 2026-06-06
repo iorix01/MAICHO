@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lato:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0d0a08;
+  --bg2: #1a0f0c;
+  --bg3: #2a1510;
+  --gold: #c8a87a;
+  --gold-light: #e8d5b5;
+  --red: #8b1a2e;
+  --red-light: #c0344e;
+  --cream: #fdf8f0;
+  --cream-dark: #3d1a0a;
+  --muted: #6b5a4e;
+  --border: #3a2518;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--gold-light);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--red);
+  color: var(--cream);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+  border-radius: 2px;
+}
